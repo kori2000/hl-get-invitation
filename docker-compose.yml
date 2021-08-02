@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+
+    hl-get-invitation:
+        container_name: hl-get-invitation
+        restart: always
+        build:
+            context: ./
+        ports:
+            - 3000:3000
